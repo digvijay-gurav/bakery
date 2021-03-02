@@ -1,0 +1,115 @@
+.roofMain {
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 225px solid transparent;
+
+  border-bottom: 200px solid brown;
+}
+.bakeryRoom {
+  height: 200px;
+  width: auto;
+  background: lightgray;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.nameBoardMain {
+  position: absolute;
+  left: 29%;
+  top: 44%;
+  padding: 5px;
+  border: 3px solid green;
+  background: lightgreen;
+  color: green;
+  text-align: center;
+}
+.nameBoardTitle {
+  display: flex;
+  width: 157px;
+  justify-content: center;
+  align-items: center;
+}
+span.doorHandle {
+  display: inline-block;
+  border: 2px solid brown;
+  width: 15px;
+  position: relative;
+  top: 35%;
+  left: 5%;
+}
+.windowMain {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: lightcyan;
+  border: 2px solid darkblue;
+  cursor: pointer;
+}
+.noCookies.windowMain {
+  background: lightyellow;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.showCookie.windowMain {
+  background: url("../assets/images/cookie.jpeg");
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.doorMain {
+  width: 100px;
+  background: lightsalmon;
+  margin-top: 25px;
+  height: 125px;
+  cursor: pointer;
+}
+.componentColumn {
+  display: flex;
+  justify-content: center;
+}
+.rightWindow {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.windowComponentWrapper {
+  height: 50px;
+}
+.mailBoxWrapper {
+  transition: transform 1s cubic-bezier(0.42, 0, 0.4, 1.78);
+  background: gray;
+  height: 50px;
+  width: 70px;
+  position: absolute;
+  top: 42%;
+  left: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  cursor: pointer;
+}
+.mailBoxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mailBoxContainer.mailBoxExt .mailBoxWrapper {
+  transform: translateY(100%);
+}
+.letterDrop {
+  border: 4px solid;
+  width: 80%;
+}
+.bakeryComponentMain {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.toastPosition {
+    position: absolute;
+}
